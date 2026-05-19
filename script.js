@@ -509,7 +509,7 @@ function rightClick(e) {
     } else {
         if (!rpmWarning) {
             let messageDiv = document.createElement("div");
-            let message = document.createTextNode("Najpierw odkryj pole!")
+            let message = document.createTextNode("Najpierw odkryj pole!");
             messageDiv.classList.add("warning");
             messageDiv.append(message);
             main.append(messageDiv);
